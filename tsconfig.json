@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "lib": ["dom", "dom.iterable", "esnext.asynciterable"],
+      "outDir": "dist",
+      "rootDir": "src"
+    },
+    "include": ["src/**.ts"],
+    "exclude": ["node_modules"]
+  }

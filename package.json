@@ -1,0 +1,25 @@
+{
+  "name": "acs-telemetry-test",
+  "version": "1.0.0",
+  "description": "Sample app to test the telemetry in ACS JavaScript libraries.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc -p ./tsconfig.json",
+    "prebuild": "rimraf dist"
+  },
+  "author": "Orlando Watson",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@azure/communication-identity": "latest",
+    "@azure/communication-sms": "latest",
+    "@azure/communication-phone-numbers": "latest",
+    "@azure/monitor-opentelemetry-exporter": "latest",
+    "@opentelemetry/plugins-node-core": "latest",
+    "@opentelemetry/node": "^0.14.0",
+    "dotenv": "^8.2.0"
+  }
+}
